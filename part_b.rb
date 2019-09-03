@@ -19,6 +19,8 @@ class Team
 
   def points_change(result)
     @points += 3 if result == "win"
+    # Just to test functionality
+    @points += 1 if result == "lose"
   end
 
   # def team_name()

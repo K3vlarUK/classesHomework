@@ -59,7 +59,7 @@ class TestTeam < MiniTest::Test
 
   def test_points_change__lose
     @team.points_change("lose")
-    assert_equal(0, @team.points())
+    assert_equal(1, @team.points())
   end
 
 end
